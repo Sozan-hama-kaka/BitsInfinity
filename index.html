@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/IMG/favicon.ico" />
+    <title>BitsInfinity</title>
+    <!-- ===== CSS Files ====== -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!-- Link for the sidebare Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link rel="stylesheet" href="CSS/team_styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/jquery.back-to-top.css" />
+  </head>
+  <body class="body">
+    <!-- ===== Main Container Start ===== -->
+    <div class="main-container">
+      <div class="mobile-nav-container">
+        <button class="close-menu">
+          <i class="fa-solid fa-xmark cross-icon"></i>
+        </button>
+        <ul class="mobile-navigation" data-visible="false">
+          <li>
+            <a class="mobile-nav-item" href="#home"
+              ><i class="fa-solid fa-house"></i> Home</a
+            >
+          </li>
+          <li>
+            <a class="mobile-nav-item" href="#about"
+              ><i class="fa-solid fa-file-lines"></i> About</a
+            >
+          </li>
+          <li>
+            <a class="mobile-nav-item" href="#values"
+              ><i class="fa-solid fa-heart"></i> Culture</a
+            >
+          </li>
+          <li>
+            <a class="mobile-nav-item" href="#team"
+              ><i class="fa-solid fa-people-group"></i> Team</a
+            >
+          </li>
+          <li>
+            <a class="mobile-nav-item" href="#contact"
+              ><i class="fa-solid fa-envelope"></i> Contact</a
+            >
+          </li>
+          <div class="toggle-mode-list-item">
+            <i class="toggle-icon fa-solid fa-moon" id="toggle-mode-mobile"></i>
+            <span id="toggle-mode-text-mobile">Dark Mode</span>
+          </div>
+        </ul>
+      </div>
+      <!-- ===== Aside Start ===== -->
+      <div class="aside">
+        <div class="logo">
+          <a href="#home">
+            <img class="logo-image" src="IMG/sazan.png" alt="logo" />
+          </a>
+        </div>
+        <div>
+          <ul class="nav">
+            <li>
+              <a href="#home"><i class="fa-solid fa-house"></i>Home</a>
+            </li>
+            <li>
+              <a href="#about"><i class="fa-solid fa-file-lines"></i>About</a>
+            </li>
+            <li>
+              <a href="#values"><i class="fa-solid fa-heart"></i>Culture</a>
+            </li>
+            <li>
+              <a href="#team"><i class="fa-solid fa-people-group"></i>Team</a>
+            </li>
+            <li>
+              <a href="#contact"><i class="fa-solid fa-envelope"></i>Contact</a>
+            </li>
+            <div class="toggle-mode-list-item">
+              <i class="toggle-icon fa-solid fa-moon" id="icon"></i>
+              <span id="toggle-mode-text">Dark Mode</span>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ===== Aside End ===== -->
+      <!-- ===== Main Content Start ===== -->
+      <div class="main-content">
+        <!-- ===== Home Section Start ===== -->
+        <section class="home" id="home">
+          <div class="home-container">
+            <button class="menu-btn">
+              <i class="fa-solid fa-bars hamburger-icon"></i>
+            </button>
+            <div class="home-text-column">
+              <h2 class="primary-heading">BitsInfinity</h2>
+              <h3 class="sub-text">Trust starts here!</h3>
+              <p class="company-description">
+                With BitsInfinity, your data can change from being a liability
+                to an opportunity; at BitsInfinity, we help you deliver clean,
+                complete, and uncompromised data whenever and whatever you need
+                it. You can make every decision count with no more unknowns and
+                no more uncertainty; you have trusted information that you can
+                use to increase revenue, decrease costs, and reduce risk.
+              </p>
+              <a href="#contact" class="btn hire-me">Discover More ...</a>
+            </div>
+            <div class="home-image-column">
+              <img
+                id="home-img"
+                class="column-image home-image"
+                src="IMG/new-bg.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </section>
+        <!-- ===== Home Section End ===== -->
+        <!-- ===== About Section Start ===== -->
+        <section class="about section" id="about">
+          <div class="container">
+            <div class="about-container">
+              <div class="about-text-container">
+                <div class="col-50">
+                  <img
+                    class="column-image"
+                    src="IMG/team-without-bg.png"
+                    alt="Team image"
+                  />
+                </div>
+                <div class="col-50">
+                  <h2 class="section-heading">ABOUT US</h2>
+                  <p class="section-text about-us-text-container">
+                    BitsInfinity is a digital service provider that offers
+                    services in industrial data management. We cover multiple
+                    industries, such as manufacturing, finance, research, IoT,
+                    and E-Commerce. We are committed to achieving excellence in
+                    our services by satisfying our customers by addressing their
+                    needs in a cost-effective, result-oriented, and timely
+                    manner. Bits Infinity offers a quick evaluation of your
+                    data's quality, popularity, and usefulness.
+                  </p>
+                </div>
+              </div>
+              <div class="about-us-text-container">
+                <p class="section-text">
+                  You must rely on data while making important decisions to move
+                  your business forward. A small amount of unreliable
+                  information risks your choices, costs you time and money, and
+                  even sinks your business. You can manage your most valuable
+                  asset and make decisions with complete confidence with the
+                  help of Bits Infinity. However, you can completely believe in
+                  the data running your business.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ===== About Section End ===== -->
+        <!-- ===== Service Section Start ===== -->
+        <section class="Values section" id="values">
+          <div class="container">
+            <div class="culture-headline">
+              <h2 class="section-heading">OUR CULTURE</h2>
+              <p class="culture-tagline">
+                Establishing a culture that appreciates and finds the risk is
+                necessary to promote creativity.
+              </p>
+            </div>
+            <div class="culture-container">
+              <div class="card">
+                <h3 class="culture-heading">VISION</h3>
+                <img src="IMG/Vision.jpg" class="square-image" alt="" />
+                <p class="culture-text">
+                  To become a leading digital service provider in Industrial
+                  Data management!
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="culture-heading">MISSION</h3>
+                <img src="IMG/Mision.jpg" class="square-image" alt="" />
+                <p class="culture-text">
+                  We provide fast and quality services to our customers through
+                  agile team work.
+                </p>
+              </div>
+              <div class="card">
+                <h3 class="culture-heading">PURPOSE</h3>
+                <img src="IMG/Goals.jpg" class="square-image" alt="" />
+                <p class="culture-text">
+                  Customers depend on Bits Infinity when critical decisions
+                  cannot wait.
+                </p>
+              </div>
+              <!-- <div class="card">
+                <h3 class="culture-heading">VALUES</h3>
+                <img src="IMG/value-new.png" class="square-image" alt="" />
+                <p class="culture-text">Always stay true to our core values!</p>
+              </div> -->
+            </div>
+          </div>
+        </section>
+        <section class="Values section" id="values-section">
+          <div class="container">
+            <div class="culture-headline">
+              <h2 class="section-heading">OUR CULTURE</h2>
+              <h3 class="section-heading mt-5">VALUES</h3>
+              <p class="culture-tagline">
+                At BitsInfinty, we adopt our core values over rigid rules when
+                it comes to decision-making; we strive to stay true to our
+                values which keeps us in the right direction.
+              </p>
+            </div>
+            <div class="value-container">
+              <div class="value-card">
+                <img class="value-image" src="IMG/values-icon/1.png" alt="" />
+              </div>
+              <div class="value-card">
+                <img class="value-image" src="IMG/values-icon/2.png" alt="" />
+              </div>
+              <div class="value-card">
+                <img class="value-image" src="IMG/values-icon/3.png" alt="" />
+              </div>
+              <div class="value-card">
+                <img class="value-image" src="IMG/values-icon/4.png" alt="" />
+              </div>
+
+              <!-- <div class="card">
+                <h3 class="culture-heading">VALUES</h3>
+                <img src="IMG/value-new.png" class="square-image" alt="" />
+                <p class="culture-text">Always stay true to our core values!</p>
+              </div> -->
+            </div>
+          </div>
+        </section>
+        <!-- ==== Team Section Started =====  -->
+        <section class="team section" id="team">
+          <div class="container">
+            <div class="team-container">
+              <div class="vision">
+                <h2 class="section-heading">OUR TEAM</h2>
+                <p class="vision-text">
+                  These people make BitsInfinity better everyday!
+                </p>
+              </div>
+              <div class="team-container">
+                <div class="card">
+                  <div class="content">
+                    <div class="imgBx">
+                      <img class="full-size" src="IMG/saad-01.jpg" alt="" />
+                    </div>
+                    <div class="contentBx">
+                      <h4>Saad Afzal</h4>
+                      <h5>Founder</h5>
+                    </div>
+                    <div class="sci">
+                      <a href="https://www.instagram.com/bitsinfinity/"
+                        ><i class="fa fa-instagram" aria-hidden="true"></i
+                      ></a>
+                      <a
+                        href="https://www.facebook.com/profile.php?id=100087399739017"
+                        ><i
+                          class="fa fa-facebook-official"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                      <a
+                        href="https://www.linkedin.com/in/bitsinfinty-506514256/"
+                        ><i class="fa-brands fa-linkedin" aria-hidden="true"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="content">
+                    <div class="imgBx">
+                      <img
+                        class="full-size"
+                        src="IMG/sozan-new-img.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="contentBx">
+                      <h4>Sozan Hama Kaka</h4>
+                      <h5>Frontend Developer</h5>
+                    </div>
+                    <div class="sci">
+                      <a href="https://www.instagram.com/bitsinfinity/"
+                        ><i class="fa fa-instagram" aria-hidden="true"></i
+                      ></a>
+                      <a
+                        href="https://www.facebook.com/profile.php?id=100087399739017"
+                        ><i
+                          class="fa fa-facebook-official"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                      <a
+                        href="https://www.linkedin.com/in/bitsinfinty-506514256/"
+                        ><i class="fa-brands fa-linkedin" aria-hidden="true"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="content">
+                    <div class="imgBx">
+                      <img class="full-size" src="IMG/yifan.jpg" alt="" />
+                    </div>
+                    <div class="contentBx">
+                      <h4>Yifan Du</h4>
+                      <h5>Software Engineer</h5>
+                    </div>
+                    <div class="sci">
+                      <a href="https://www.instagram.com/bitsinfinity/"
+                        ><i class="fa fa-instagram" aria-hidden="true"></i
+                      ></a>
+                      <a
+                        href="https://www.facebook.com/profile.php?id=100087399739017"
+                        ><i
+                          class="fa fa-facebook-official"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                      <a
+                        href="https://www.linkedin.com/in/bitsinfinty-506514256/"
+                        ><i class="fa-brands fa-linkedin" aria-hidden="true"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="content">
+                    <div class="imgBx">
+                      <img class="full-size" src="IMG/xia.jpg" alt="" />
+                    </div>
+                    <div class="contentBx">
+                      <h4>Xia Xiaoyu</h4>
+                      <h5>Technical Analyst</h5>
+                    </div>
+                    <div class="sci">
+                      <a href="https://www.instagram.com/bitsinfinity/"
+                        ><i class="fa fa-instagram" aria-hidden="true"></i
+                      ></a>
+                      <a
+                        href="https://www.facebook.com/profile.php?id=100087399739017"
+                        ><i
+                          class="fa fa-facebook-official"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                      <a
+                        href="https://www.linkedin.com/in/bitsinfinty-506514256/"
+                        ><i class="fa-brands fa-linkedin" aria-hidden="true"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="content">
+                    <div class="imgBx">
+                      <img class="full-size" src="IMG/cao.jpg" alt="" />
+                    </div>
+                    <div class="contentBx">
+                      <h4>Jiahao Cao</h4>
+                      <h5>Software Engineer</h5>
+                    </div>
+                    <div class="sci">
+                      <a href="https://www.instagram.com/bitsinfinity/"
+                        ><i class="fa fa-instagram" aria-hidden="true"></i
+                      ></a>
+                      <a
+                        href="https://www.facebook.com/profile.php?id=100087399739017"
+                        ><i
+                          class="fa fa-facebook-official"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                      <a
+                        href="https://www.linkedin.com/in/bitsinfinty-506514256/"
+                        ><i class="fa-brands fa-linkedin" aria-hidden="true"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ==== Contact Section Started =====  -->
+        <section class="contact section" id="contact">
+          <div class="container">
+            <div class="vision">
+              <h2 class="section-heading">Contact Us</h2>
+            </div>
+            <h3 class="contact-title padd-15">Do you have any question ?</h3>
+            <h4 class="contact-sub-title padd-15">We are at your service</h4>
+            <div class="row">
+              <!-- ===== Contact info item start ===== -->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-phone"></i></div>
+                <h4>Call Us On</h4>
+                <p>+49-15753600829</p>
+              </div>
+              <!-- ===== Contact info item End ===== -->
+              <!-- ===== Contact info item start ===== -->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                <h4>Office</h4>
+                <p>Vettersstraße 66, 09126 Chemnitz</p>
+              </div>
+              <!-- ===== Contact info item End ===== -->
+              <!-- ===== Contact info item start ===== -->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-envelope"></i></div>
+                <h4>Email</h4>
+                <p>Info@bitsinfinty.com</p>
+              </div>
+              <!-- ===== Contact info item End ===== -->
+              <!-- ===== Contact info item start ===== -->
+              <div class="contact-info-item padd-15">
+                <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                <h4>Website</h4>
+                <p>www.bitsinfinity.de</p>
+              </div>
+              <!-- ===== Contact info item End ===== -->
+            </div>
+            <h3 class="contact-title padd-15">Send Us An Email</h3>
+            <h4 class="contact-sub-title padd-15">
+              WE ARE VERY RESPONSIVE TO MESSAGES
+            </h4>
+            <!-- ===== Contact Form ===== -->
+            <div class="row">
+              <div class="contact-form padd-15">
+                <form
+                  action="https://formsubmit.co/info@bitsinfinity.de"
+                  method="POST"
+                >
+                  <div class="row">
+                    <div class="form-item col-6 padd-15">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Name"
+                          name="name"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="form-item col-6 padd-15">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Email"
+                          name="email"
+                          required
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="form-item col-12 padd-15">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Subject"
+                          name="subject"
+                          required
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="form-item col-12 padd-15">
+                      <div class="form-group">
+                        <textarea
+                          class="form-control"
+                          placeholder="Message"
+                          name="message"
+                          required
+                        ></textarea>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="form-item col-12 padd-15">
+                      <button type="submit" class="btn">Send Message</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="footer">
+          <div class="disclaimer">
+            <span class="disclaimer-text"
+              >This website does not belong to a real company. It is a Planspiel
+              Web Engineering project.</span
+            >
+          </div>
+          <div class="copyrights">
+            <span class="copyright-text"
+              >2022 © Copyright BitsInfinty. All Rights Reserved</span
+            >
+          </div>
+          <div class="social-icon-container">
+            <a
+              class="social-media-container-icon"
+              href="https://www.facebook.com/profile.php?id=100087399739017"
+              target="_blank"
+              rel="noopener"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              class="social-media-container-icon"
+              href="https://www.instagram.com/bitsinfinity/"
+              target="_blank"
+              rel="noopener"
+              ><i class="fa-brands fa-square-instagram"></i
+            ></a>
+            <a
+              class="social-media-container-icon"
+              href="https://www.linkedin.com/in/bitsinfinty-506514256/"
+              target="_blank"
+              rel="noopener"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+        </footer>
+      </div>
+
+      <!-- ==== Contact Section End =====  -->
+
+      <!-- ===== Main Content End ===== -->
+    </div>
+    <!-- ===== Main Container End ===== -->
+    <script type="text/javascript" src="JS/script.js"></script>
+    <a href="#" class="bck"></a>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="JS/jquery.back-to-top.js"></script>
+    <script>
+      $(function () {
+        $(".bck").backToTop({
+          iconName: "fas fa-arrow-up",
+          fxName: "rightToLeft",
+        });
+      });
+    </script>
+  </body>
+</html>
